@@ -1,11 +1,23 @@
 package com.company.JADev;
 
+import java.util.Scanner;
+
 public class Pelilauta {
     private Nappula[][] pelilauta = New Nappula[8][8];
-
+    private boolean pelataan;
+    private boolean valkoisenvuoro;
+    private Scanner syote = new Scanner(System.in);
+    private String komentoAlku;
+    private String komentoLoppu
+    private int alkuX;
+    private int alkuY;
+    private int loppuX;
+    private int loppuY;
 
     public Pelilauta(){
         asetaPelilauta();
+        pelataan == true;
+
 
     }
 
@@ -116,5 +128,49 @@ public class Pelilauta {
         if(pelilauta.[loppuX][loppuY] == null){
             return true;
         }
+
+
+        }
+
+
+    public boolean aloitaPeli() {
+        return this.pelataan;
+    }
+
+    public void liiku(){
+
+
+        if(valkoisenvuoro){
+        System.out.print("On valkoisen vuoro. Anna komentosi:")
+        }
+
+        if(!valkoisenvuoro){
+            System.out.print("On mustien vuoro. Anna komentosi:")
+        }
+
+        System.out.println("Anna ensin nappulan koordinaatit jota haluat liikuttaa")
+
+        komentoAlku = syote.nextLine();
+
+        Syste.out.println("Sitten")
+        komentoLoppu = syote.nextLine();
+
+        if(komento.equalsIgnoreCase("exit"){
+        pelataan = false;
+        System.out.println("Lopetit pelin. Kiitos pelaamisesta.");
+
+        }
+
+        /*
+        if(komento.equalsIgnoreCase("tallenna"){
+
+            pelataan = false;
+            System.out.println("Peli tallennettiin tiedostoon" + Pelaaja.getTiedostoNimi())
+            System.out.println("Kiitos pelaamisesta.");
+        }
+        */
+
+
+
     }
 }
