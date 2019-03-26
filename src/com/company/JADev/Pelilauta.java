@@ -1,18 +1,20 @@
 package com.company.JADev;
 
+import java.io.File;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Pelilauta {
     private Nappula[][] pelilauta = New Nappula[8][8];
-    private boolean pelataan;
-    private boolean valkoisenvuoro;
-    private Scanner syote = new Scanner(System.in);
-    private String komentoAlku;
-    private String komentoLoppu
-    private int alkuX;
-    private int alkuY;
-    private int loppuX;
-    private int loppuY;
+    private static boolean pelataan;
+    private static boolean valkoisenvuoro;
+    private static Scanner syote = new Scanner(System.in);
+    private static String komento;
+    private static int alkuX;
+    private static int alkuY;
+    private static int loppuX;
+    private static int loppuY;
+    private static boolean laitonSiirto;
 
     public Pelilauta(){
         asetaPelilauta();
@@ -21,7 +23,7 @@ public class Pelilauta {
 
     }
 
-    private static void asetaPelilauta(){
+    private void asetaPelilauta(){
 
 
         for(int rivi=0;rivi<pelilauta.length;rivi++){
@@ -108,7 +110,7 @@ public class Pelilauta {
         }
     }
 
-    private boolean onkoSallittu(int alkuX,int alkuY,int loppuX,int loppuY){
+    private boolean onkoSallittu(){
 
         if(loppuX < 0 || loppuX > 7 || loppuY < 0 || loppuY > 7){
             System.out.println("Siirtosi on laudan ulkopuolella!");
@@ -125,9 +127,17 @@ public class Pelilauta {
             return false;
         }
 
+        if(pelilauta[alkuX][alkuY].onValkoinen() && !valkoisenvuoro){
+            System.out.println("Ei ole sinun vuorosi");
+            return false;
+
+        }
+
         if(pelilauta.[loppuX][loppuY] == null){
             return true;
         }
+
+        return true;
 
 
         }
@@ -139,6 +149,10 @@ public class Pelilauta {
 
     public void liiku(){
 
+        if(laitonSiirto){
+            System.out.println("Siirtosi on laiton, yritä uudestaan.");
+            laitonSiirto = false;
+        }
 
         if(valkoisenvuoro){
         System.out.print("On valkoisen vuoro. Anna komentosi:")
@@ -148,29 +162,81 @@ public class Pelilauta {
             System.out.print("On mustien vuoro. Anna komentosi:")
         }
 
-        System.out.println("Anna ensin nappulan koordinaatit jota haluat liikuttaa")
 
-        komentoAlku = syote.nextLine();
+        komento = syote.nextLine();
 
-        Syste.out.println("Sitten")
-        komentoLoppu = syote.nextLine();
 
-        if(komento.equalsIgnoreCase("exit"){
+        if(komento.equalsIgnoreCase("exit")){
         pelataan = false;
         System.out.println("Lopetit pelin. Kiitos pelaamisesta.");
 
         }
 
-        /*
-        if(komento.equalsIgnoreCase("tallenna"){
 
+        if(komento.equalsIgnoreCase("tallenna"){
+            tallennus();
             pelataan = false;
             System.out.println("Peli tallennettiin tiedostoon" + Pelaaja.getTiedostoNimi())
             System.out.println("Kiitos pelaamisesta.");
         }
-        */
+
+
+        komento  = komento.toLowerCase();
+
+        String[] siirrot = komento.split(" ");
+
+        alkuX = 7 - (siirrot[0].charAt(1) - '1');
+        alkuY = siirrot[0].charAt(0) - 'a';
+        loppuX = 7 - (siirrot[1].charAt(1) - '1');
+        loppuY = siirrot[1].charAt(0) - 'a';
+
+        if(onkoSallittu()){
+            pelilauta[loppuX][loppuY] = pelilauta[alkuX][alkuY];
+            pelilauta[alkuX][alkuY] = null;
+            valkoisenvuoro = !valkoisenvuoro;
+        }else{
+            laitonSiirto = true;
+            liiku();
+        }
 
 
 
     }
+
+    public void tallennus(){
+        PrintWriter tallenna = new PrintWriter(new File(Pelaaja.getTiedostoNimi()));
+
+        for(int rivi=0;rivi<pelilauta.length;rivi++){
+            if(rivi>0){ System.out.println(); }
+            for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
+                tallenna.println(pelilauta[rivi][indeksi].piirra())
+            }
+        }
+        tallenna.close();
+    }
+
+    public void lataaPelilauta(File tallennus){
+
+        Scanner tiedosto = new Scanner(new File(tallennus));
+        String[][] nappulat = new String[8][8];
+
+        for(int rivi=0;rivi<pelilauta.length;rivi++){
+            for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
+                String[rivi][indeksi] = tiedosto.nextLine();
+            }
+        }
+        for(int rivi=0;rivi<nappulat.length;rivi++){
+            for(int indeksi=0;indeksi<nappulat[0].length;indeksi++){
+                switch (nappulat[rivi][indeksi]){
+                    case "\u2659":
+                        pelilauta[rivi][indeksi] = new Sotilas(true);
+                        continue;
+                    case "\u265F":
+                }       pelilauta[rivi][indeksi] = new Sotilas(false);
+                        continue;
+
+
+
+    }
+
 }
