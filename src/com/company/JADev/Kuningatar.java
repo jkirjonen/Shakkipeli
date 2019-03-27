@@ -35,7 +35,7 @@ public class Kuningatar extends Nappula {
 
     @Override
     public boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY) {
-        return (suoraPolku(alkuX, alkuY, loppuX, loppuY)) ||  vinoPolku(alkuX, alkuY, loppuX, loppuY));
+        return (suoraPolku(alkuX, alkuY, loppuX, loppuY)) ||  (vinoPolku(alkuX, alkuY, loppuX, loppuY));
     }
 
 }

@@ -25,7 +25,7 @@ public class Sotilas extends Nappula {
          */
         if (this.onValkoinen) {
             return (((alkuY == loppuY) && alkuX == (loppuX + 1))
-                    || ((alkuX == 6) (alkuY == loppuY) && (alkuX == (loppuX + 2)))
+                    || ((alkuX == 6) && (alkuY == loppuY) && (alkuX == (loppuX + 2)))
                     ||((alkuX == (loppuX + 1)) && (Math.abs(alkuY - loppuY) == 1)));
         }
         else {
