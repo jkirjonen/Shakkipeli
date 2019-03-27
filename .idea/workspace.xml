@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dca9a44-2936-4c62-b1db-ee9215acbc16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Hevonen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelilauta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Hevonen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Hevonen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Kuningas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Kuningas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Torni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Torni.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="882">
-              <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
+              <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
@@ -90,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1015">
-              <caret line="37" column="102" selection-start-line="37" selection-start-column="102" selection-end-line="37" selection-end-column="102" />
+              <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -117,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2361">
-              <caret line="287" lean-forward="true" selection-start-line="280" selection-start-column="17" selection-end-line="287" />
+              <caret line="287" selection-start-line="280" selection-start-column="17" selection-end-line="287" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4708#4709#0" expanded="true" />
@@ -156,10 +164,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-11" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="195" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,6 +184,11 @@
             <path>
               <item name="Shakkipeli" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shakkipeli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shakkipeli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shakkipeli" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shakkipeli" type="b2602c69:ProjectViewProjectNode" />
@@ -258,7 +272,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1340" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25403878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -397,7 +410,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
-          <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
+          <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
@@ -422,7 +435,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1015">
-          <caret line="37" column="102" selection-start-line="37" selection-start-column="102" selection-end-line="37" selection-end-column="102" />
+          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -446,7 +459,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2361">
-          <caret line="287" lean-forward="true" selection-start-line="280" selection-start-column="17" selection-end-line="287" />
+          <caret line="287" selection-start-line="280" selection-start-column="17" selection-end-line="287" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4708#4709#0" expanded="true" />

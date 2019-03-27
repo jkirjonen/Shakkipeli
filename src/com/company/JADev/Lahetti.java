@@ -17,6 +17,16 @@ public class Lahetti extends Nappula {
     }
 
 
+    public String annaMerkki() {
+        if(this.onValkoinen) {
+            return "\u2657";
+        }
+        else {
+            return "\u265D";
+        }
+    }
+
+
     private static boolean vinoPolku(int alkuX, int alkuY, int loppuX, int loppuY) {
         /**
          * Tarkistaa onko Lähetin kulkema polku vino
