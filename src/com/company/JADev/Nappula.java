@@ -30,6 +30,12 @@ public abstract class Nappula {
      */
     public abstract boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY);
 
+    /**
+     *
+     * @return palauttaa "piirros" merkin tallennusta ja latausta varten
+     */
+
+    public abstract String annaMerkki();
 
 
 

@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Pelilauta {
     private Nappula[][] pelilauta = new Nappula[8][8];
-    private static boolean pelataan;
+    private static boolean pelataan = true;
     private static boolean valkoisenvuoro;
     private static Scanner syote = new Scanner(System.in);
     private static String komento;
@@ -211,10 +211,11 @@ public class Pelilauta {
             e.printStackTrace();
         }
 
+
         for(int rivi=0;rivi<pelilauta.length;rivi++){
             if(rivi>0){ System.out.println(); }
             for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
-                tallenna.println(pelilauta[rivi][indeksi].annaMerkki());
+                tallenna.print(pelilauta[rivi][indeksi].annaMerkki());
             }
         }
         tallenna.close();
