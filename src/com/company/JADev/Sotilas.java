@@ -4,7 +4,7 @@ public class Sotilas extends Nappula {
 
 
     public Sotilas(boolean onValkoinen) {
-        super(onkoValkoinen);
+        super(onValkoinen);
     }
 
     @Override
@@ -12,34 +12,28 @@ public class Sotilas extends Nappula {
         if(this.onValkoinen) {
             System.out.print("\u2659");
         }
-        if(!(this.onValkoinen)) {
+        else {
             System.out.print("\u265F");
         }
     }
 
     @Override
-    public boolean onkoSallittu(int aX, int aY, int bX, int bY) {
-
+    public boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY) {
         /**
          * Saa liikkua 1 eteenpäin tai aloitusruudusta
          * 2 eteenpäin tai syödä vastapuolen nappulan
          */
         if (this.onValkoinen) {
-            return (((aY == bY) && aX == (bX + 1))
-                    || ((aX == 6) (aY == bY) && (aX == (bX + 2)))
-                    ||((aX == (bX + 1)) && (Math.abs(aY - bY) == 1)));
+            return (((alkuY == loppuY) && alkuX == (loppuX + 1))
+                    || ((alkuX == 6) (alkuY == loppuY) && (alkuX == (loppuX + 2)))
+                    ||((alkuX == (loppuX + 1)) && (Math.abs(alkuY - loppuY) == 1)));
         }
         else {
-            return (((aY == bY) && aX == (bX -1))
-                    || ((aX == 1) && (aY == bY) &&(aX == (bX - 2)))
-                    || ((aX == (bX - 1)) && (Math.abs(aY - bY) == 1)));
+            return (((alkuY == loppuY) && alkuX == (loppuX -1))
+                    || ((alkuX == 1) && (alkuY == loppuY) &&(alkuX == (loppuX - 2)))
+                    || ((alkuX == (loppuX - 1)) && (Math.abs(alkuY - loppuY) == 1)));
         }
 
-    }
-
-    @Override
-    public int arvo() {
-        return 1;
     }
 
 }
