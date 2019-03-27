@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Pelilauta {
-    private Nappula[][] pelilauta = New Nappula[8][8];
+    private Nappula[][] pelilauta = new Nappula[8][8];
     private static boolean pelataan;
     private static boolean valkoisenvuoro;
     private static Scanner syote = new Scanner(System.in);
@@ -18,7 +18,6 @@ public class Pelilauta {
 
     public Pelilauta(){
         asetaPelilauta();
-        pelataan == true;
 
 
     }
@@ -96,7 +95,7 @@ public class Pelilauta {
 
         System.out.println("\ta\tb\tc\td\te\tf\tg\th");
 
-        for(int rivi=0;rivi<pelilauta.lenght;rivi++){
+        for(int rivi=0;rivi<pelilauta.length;rivi++){
             System.out.print(rivi +1 + "  ");
             for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
                 if(pelilauta[rivi][indeksi] != null){
@@ -122,7 +121,7 @@ public class Pelilauta {
             return false;
         }
 
-        if(!pelilauta[alkuX][alkuY].onkoSallittu(alkuX,alkuY,loppuX,loppuY) {
+        if(!pelilauta[alkuX][alkuY].onkoSallittu(alkuX,alkuY,loppuX,loppuY)) {
             System.out.println("Nappula ei liiku näin. Katso: https://fi.wikipedia.org/wiki/Shakki");
             return false;
         }
@@ -133,7 +132,7 @@ public class Pelilauta {
 
         }
 
-        if(pelilauta.[loppuX][loppuY] == null){
+        if(pelilauta[loppuX][loppuY] == null){
             return true;
         }
 
@@ -144,7 +143,7 @@ public class Pelilauta {
 
 
     public boolean aloitaPeli() {
-        return this.pelataan;
+        return pelataan;
     }
 
     public void liiku(){
@@ -155,11 +154,11 @@ public class Pelilauta {
         }
 
         if(valkoisenvuoro){
-        System.out.print("On valkoisen vuoro. Anna komentosi:")
+        System.out.print("On valkoisen vuoro. Anna komentosi:");
         }
 
         if(!valkoisenvuoro){
-            System.out.print("On mustien vuoro. Anna komentosi:")
+            System.out.print("On mustien vuoro. Anna komentosi:");
         }
 
 
@@ -173,10 +172,10 @@ public class Pelilauta {
         }
 
 
-        if(komento.equalsIgnoreCase("tallenna"){
+        if(komento.equalsIgnoreCase("tallenna")){
             tallennus();
             pelataan = false;
-            System.out.println("Peli tallennettiin tiedostoon" + Pelaaja.getTiedostoNimi())
+            System.out.println("Peli tallennettiin tiedostoon" + Pelaaja.getTiedostoNimi());
             System.out.println("Kiitos pelaamisesta.");
         }
 
@@ -209,7 +208,7 @@ public class Pelilauta {
         for(int rivi=0;rivi<pelilauta.length;rivi++){
             if(rivi>0){ System.out.println(); }
             for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
-                tallenna.println(pelilauta[rivi][indeksi].piirra())
+                tallenna.println(pelilauta[rivi][indeksi].piirra());
             }
         }
         tallenna.close();
@@ -222,20 +221,55 @@ public class Pelilauta {
 
         for(int rivi=0;rivi<pelilauta.length;rivi++){
             for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
-                String[rivi][indeksi] = tiedosto.nextLine();
+                nappulat[rivi][indeksi] = tiedosto.nextLine();
             }
         }
-        for(int rivi=0;rivi<nappulat.length;rivi++){
-            for(int indeksi=0;indeksi<nappulat[0].length;indeksi++){
-                switch (nappulat[rivi][indeksi]){
+        for(int rivi=0;rivi<nappulat.length;rivi++) {
+            for (int indeksi = 0; indeksi < nappulat[0].length; indeksi++) {
+                switch (nappulat[rivi][indeksi]) {
                     case "\u2659":
                         pelilauta[rivi][indeksi] = new Sotilas(true);
                         continue;
                     case "\u265F":
-                }       pelilauta[rivi][indeksi] = new Sotilas(false);
+                        pelilauta[rivi][indeksi] = new Sotilas(false);
                         continue;
+                    case "\u2657":
+                        pelilauta[rivi][indeksi] = new Lahetti(true);
+                        continue;
+                    case "\u265D":
+                        pelilauta[rivi][indeksi] = new Lahetti(false);
+                        continue;
+                    case "\u2656":
+                        pelilauta[rivi][indeksi] = new Torni(true);
+                        continue;
+                    case "\u265C":
+                        pelilauta[rivi][indeksi] = new Torni(false);
+                        continue;
+                    case "\u2658":
+                        pelilauta[rivi][indeksi] = new Hevonen(true);
+                        continue;
+                    case "\u265E":
+                        pelilauta[rivi][indeksi] = new Hevonen(false);
+                        continue;
+                    case "\u2655":
+                        pelilauta[rivi][indeksi] = new Kuningatar(true);
+                        continue;
+                    case "\u265B":
+                        pelilauta[rivi][indeksi] = new Kuningatar(false);
+                        continue;
+                    case "\u2654":
+                        pelilauta[rivi][indeksi] = new Kuningas(true);
+                        continue;
+                    case "\u265A":
+                        pelilauta[rivi][indeksi] = new Kuningas(false);
+                        continue;
+                    default:
+                        pelilauta[rivi][indeksi] = null;
 
 
+                }
+            }
+        }
 
     }
 

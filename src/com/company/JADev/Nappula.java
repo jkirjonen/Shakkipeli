@@ -28,12 +28,8 @@ public abstract class Nappula {
      * Tarkistaa onko siirto sallitu
      * @return true, jos siirto on sallittu, false ei sallittu siirto
      */
-    public abstract boolean onkoSallittu(int aX, int aY, int bX, int bY);
+    public abstract boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY);
 
-    /**
-     * @return
-     */
-    public abstract int arvo();
 
 
 

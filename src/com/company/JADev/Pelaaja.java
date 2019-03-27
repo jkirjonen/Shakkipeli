@@ -4,17 +4,18 @@ import java.util.Scanner;
 
 public class Pelaaja {
 
-    String pelaaja1;
-    String pelaaja2;
-    Scanner nimi = new Scanner(System.in);
+    private static String pelaaja1 = "Alku";
+    private static String pelaaja2 = "Arvo";
+    private Scanner nimi = new Scanner(System.in);
+    private static String tiedostoNimi;
 
     public void asetaPelaajat() {
-       System.out.println("Tervetuloa pelaamaan shakkia. Anna nimesi pelaaja1:");
+       System.out.println("Anna nimesi pelaaja1:");
        setPelaaja1(nimi.nextLine());
        System.out.println("Terve" + pelaaja1 + ".");
        System.out.println("Anna nimesi pelaaja2:");
        setPelaaja2(nimi.nextLine());
-       System.out.println("Terve" + pelaaja2 + ". Aloitetaan...")
+       System.out.println("Terve" + pelaaja2 + ". Aloitetaan...");
     }
 
     public String getPelaaja1() {
@@ -34,6 +35,8 @@ public class Pelaaja {
     }
 
     public static String getTiedostoNimi(){
-        return System.out.println( pelaaja1 + "vs" + pelaaja2 ".txt");
+
+        tiedostoNimi = tiedostoNimi + pelaaja1 + "vs" + pelaaja2 + ".txt";
+        return tiedostoNimi;
     }
 }
