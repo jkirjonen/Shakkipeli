@@ -17,6 +17,16 @@ public class Sotilas extends Nappula {
         }
     }
 
+
+    public String annaMerkki() {
+        if(this.onValkoinen) {
+            return "\u2659";
+        }
+        else {
+            return "\u265F";
+        }
+    }
+
     @Override
     public boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY) {
         /**

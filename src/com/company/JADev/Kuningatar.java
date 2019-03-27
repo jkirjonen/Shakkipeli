@@ -16,6 +16,15 @@ public class Kuningatar extends Nappula {
         }
     }
 
+    public String annaMerkki() {
+        if(this.onValkoinen) {
+            return "\u2655";
+        }
+        else {
+            return "\u265B";
+        }
+    }
+
 
     private static boolean suoraPolku(int alkuX, int alkuY, int loppuX, int loppuY) {
         /**

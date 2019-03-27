@@ -17,6 +17,15 @@ public class Hevonen extends Nappula{
         }
     }
 
+    public String annaMerkki() {
+        if(this.onValkoinen) {
+            return "\u2658";
+        }
+        else {
+            return "\u265E";
+        }
+    }
+
 
     private static boolean lPolku(int alkuX, int alkuY, int loppuX, int loppuY) {
         /**
