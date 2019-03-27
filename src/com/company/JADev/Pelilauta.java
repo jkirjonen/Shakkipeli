@@ -1,6 +1,7 @@
 package com.company.JADev;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
@@ -203,12 +204,17 @@ public class Pelilauta {
     }
 
     public void tallennus(){
-        PrintWriter tallenna = new PrintWriter(new File(Pelaaja.getTiedostoNimi()));
+        PrintWriter tallenna = null;
+        try {
+            tallenna = new PrintWriter(Pelaaja.getTiedostoNimi());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
         for(int rivi=0;rivi<pelilauta.length;rivi++){
             if(rivi>0){ System.out.println(); }
             for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
-                tallenna.println(pelilauta[rivi][indeksi].piirra());
+                tallenna.println(pelilauta[rivi][indeksi].annaMerkki());
             }
         }
         tallenna.close();
@@ -216,7 +222,12 @@ public class Pelilauta {
 
     public void lataaPelilauta(File tallennus){
 
-        Scanner tiedosto = new Scanner(new File(tallennus));
+        Scanner tiedosto = null;
+        try {
+            tiedosto = new Scanner(tallennus);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
         String[][] nappulat = new String[8][8];
 
         for(int rivi=0;rivi<pelilauta.length;rivi++){
