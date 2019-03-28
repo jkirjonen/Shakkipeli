@@ -1,8 +1,6 @@
 package com.company.JADev;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.Scanner;
 
 public class Pelilauta {
@@ -155,11 +153,11 @@ public class Pelilauta {
         }
 
         if(!valkoisenvuoro){
-        System.out.println("On valkoisen vuoro.");
+        System.out.println("On " + Pelaaja.getPelaaja1() + "(valkoiset) vuoro" );
         }
 
         if(valkoisenvuoro){
-            System.out.println("On mustien vuoro.");
+            System.out.println("On " + Pelaaja.getPelaaja2() + "(mustat) vuoro");
         }
 
         System.out.print("Anna komentosi(esim. h7 h6):");
@@ -174,7 +172,7 @@ public class Pelilauta {
 
 
         if(komento.equalsIgnoreCase("tallenna")){
-            System.out.println("Peli tallennettiin tiedostoon" + Pelaaja.getTiedostoNimi());
+            System.out.println("Peli tallennettiin tiedostoon " + Pelaaja.getTiedostoNimi());
             System.out.println("Kiitos pelaamisesta.");
             tallennus();
             pelataan = false;
@@ -205,22 +203,31 @@ public class Pelilauta {
     }
 
     public void tallennus(){
-        PrintWriter tallenna = null;
-        try {
-            tallenna = new PrintWriter(Pelaaja.getTiedostoNimi());
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
 
-        tallenna.println("Shakkipeli");
-        for(int rivi=0;rivi<pelilauta.length;rivi++){
-            if(rivi>0){ System.out.println(); }
-            for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
-                tallenna.print(pelilauta[rivi][indeksi].annaMerkki());
+    try {
+        File file = new File(Pelaaja.getTiedostoNimi());
+        file.createNewFile();
+        FileWriter tallenna = new FileWriter(file);
+
+
+        for (int rivi = 0; rivi < pelilauta.length; rivi++) {
+            if(rivi > 0){ tallenna.write("\n"); }
+            for (int indeksi = 0; indeksi < pelilauta[0].length; indeksi++) {
+                if (pelilauta[rivi][indeksi] != null) {
+                    tallenna.write(pelilauta[rivi][indeksi].annaMerkki());
+                }else{
+                    tallenna.write("\t");
+                }
             }
         }
+
+        tallenna.flush();
         tallenna.close();
+    }catch(Exception e){
+        e.printStackTrace();
+        }
     }
+
 
     public void lataaPelilauta(File tallennus){
 

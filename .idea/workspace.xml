@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="539">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
+            <state relative-caret-position="609">
               <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
             </state>
           </provider>
@@ -81,24 +81,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="210" column="7" selection-start-line="210" selection-start-column="7" selection-end-line="213" />
+            <state relative-caret-position="493">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4708#4709#0" expanded="true" />
-                <element signature="e#4739#4740#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="381">
+              <caret line="159" column="71" selection-start-line="159" selection-start-column="71" selection-end-line="159" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,9 +134,10 @@
         <option value="$PROJECT_DIR$/src/com/company/JADev/Nappula.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Hevonen.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" />
+        <option value="$PROJECT_DIR$/AlkuvsArvo.txt" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Main.java" />
       </list>
     </option>
   </component>
@@ -174,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553767243170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553778354301" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -248,16 +254,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49757674" visible="true" weight="0.356676" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798062" weight="0.32959852" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4927302" weight="0.356676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49798062" weight="0.32959852" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.356676" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49717286" weight="0.32959852" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072698" side_tool="true" weight="0.356676" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.32792792" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49757674" weight="0.32959852" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48505655" weight="0.32959852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -268,7 +274,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812816" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25403878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,15 +282,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798062" weight="0.32959852" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4927302" visible="true" weight="0.356676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940978" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5059022" side_tool="true" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.3293461" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49717286" weight="0.32959852" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072698" side_tool="true" visible="true" weight="0.356676" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.32792792" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48505655" weight="0.32959852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,20 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -402,38 +395,67 @@
     <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JussivsPekka.txtJussivsPekka.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JussivsMatti.txtJussivsMatti.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+    <entry file="file://$PROJECT_DIR$/peli.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="210" column="7" selection-start-line="210" selection-start-column="7" selection-end-line="213" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4708#4709#0" expanded="true" />
-            <element signature="e#4739#4740#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="348">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlkuvsArvo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="493">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="159" column="71" selection-start-line="159" selection-start-column="71" selection-end-line="159" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -21,7 +21,7 @@ public class Main {
 
         if ( valinta.equals("l") || valinta.equals("L") ){
             while(uuspeli.aloitaPeli()){
-                uuspeli.lataaPelilauta(new File(Pelaaja.getTiedostoNimi()));
+                uuspeli.lataaPelilauta(new File(pelaaja.getTiedostoNimi()));
                 uuspeli.liiku();
             }
         }
