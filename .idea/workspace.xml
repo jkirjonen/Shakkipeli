@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dca9a44-2936-4c62-b1db-ee9215acbc16" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Hevonen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Hevonen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" afterDir="false" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
       <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Torni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Torni.java" afterDir="false" />
@@ -19,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="511">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,19 +41,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="609">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1754">
+              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -49,8 +66,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="374">
               <caret line="43" column="83" lean-forward="true" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+=======
+            <state relative-caret-position="348">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
@@ -59,6 +81,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,6 +96,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
               <caret line="88" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
             </state>
           </provider>
         </entry>
@@ -80,39 +110,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="228">
               <caret line="157" column="108" lean-forward="true" selection-start-line="157" selection-start-column="108" selection-end-line="157" selection-end-column="108" />
+=======
+            <state relative-caret-position="1015">
+              <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningas.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="348">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java">
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-204">
               <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+=======
+            <state relative-caret-position="-1175">
+              <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4840#4841#0" expanded="true" />
-                <element signature="e#4871#4872#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,8 +212,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,10 +305,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1340" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20080972" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25403878" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,6 +419,16 @@
     <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt" />
     <entry file="file://$PROJECT_DIR$/JussivsPekka.txtJussivsPekka.txt" />
     <entry file="file://$PROJECT_DIR$/JussivsMatti.txtJussivsMatti.txt" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -371,8 +438,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="51">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+=======
+        <state relative-caret-position="348">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -388,45 +460,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="228">
           <caret line="157" column="108" lean-forward="true" selection-start-line="157" selection-start-column="108" selection-end-line="157" selection-end-column="108" />
+=======
+        <state relative-caret-position="1015">
+          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="136">
           <caret line="37" column="76" lean-forward="true" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+=======
+        <state relative-caret-position="348">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="374">
           <caret line="43" column="83" lean-forward="true" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="609">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="493">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="646">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+=======
+        <state relative-caret-position="511">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-204">
           <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
           <folding>
@@ -441,6 +547,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <state relative-caret-position="1754">
+          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>

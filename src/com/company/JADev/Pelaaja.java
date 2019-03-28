@@ -1,7 +1,6 @@
 package com.company.JADev;
 
-import java.io.File;
-import java.io.IOException;
+
 import java.util.Scanner;
 
 public class Pelaaja {
@@ -10,6 +9,7 @@ public class Pelaaja {
     private static String pelaaja2 = "Arvo";
     private Scanner nimi = new Scanner(System.in);
     private static String tiedostoNimi = "";
+
 
 
     public void asetaPelaajat() {
@@ -22,7 +22,7 @@ public class Pelaaja {
 
     }
 
-    public String getPelaaja1() {
+    public static String getPelaaja1() {
         return pelaaja1;
     }
 
@@ -30,7 +30,7 @@ public class Pelaaja {
         this.pelaaja1 = pelaaja1;
     }
 
-    public String getPelaaja2() {
+    public static String getPelaaja2() {
         return pelaaja2;
     }
 
@@ -38,10 +38,9 @@ public class Pelaaja {
         this.pelaaja2 = pelaaja2;
     }
 
-    public static String getTiedostoNimi(){
+    public static String getTiedostoNimi() {
 
-        tiedostoNimi = tiedostoNimi + pelaaja1 + "vs" + pelaaja2 + ".txt";
-        return tiedostoNimi;
+        return tiedostoNimi + pelaaja1 + "vs" + pelaaja2 + ".txt";
     }
 
 }
