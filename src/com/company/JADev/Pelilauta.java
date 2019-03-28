@@ -157,7 +157,7 @@ public class Pelilauta {
         }
 
         if(valkoisenvuoro){
-            System.out.println("On " + Pelaaja.getPelaaja2() + "(mustat) vuoro");
+            System.out.println("On " + Pelaaja.getPelaaja2() + "(mustatgit) vuoro");
         }
 
         System.out.print("Anna komentosi(esim. h7 h6):");
