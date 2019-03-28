@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Pelilauta {
-    private Nappula[][] pelilauta = new Nappula[8][8];
+    private static Nappula[][] pelilauta = new Nappula[8][8];
     private static boolean pelataan = true;
     private static boolean valkoisenvuoro;
     private static Scanner syote = new Scanner(System.in);
@@ -87,6 +87,13 @@ public class Pelilauta {
             }
 
         }
+    }
+
+    public static boolean onTyhja(int x, int y) {
+        if(pelilauta[x][y] == null) {
+            return true;
+        }
+        return false;
     }
 
 

@@ -35,9 +35,70 @@ public class Lahetti extends Nappula {
         return ((Math.abs(alkuX - loppuX) == Math.abs(alkuY - loppuY)));
     }
 
+    private static boolean onkoJokuTiella(int alkuX, int alkuY, int loppuX, int loppuY) {
+        /**
+         * Tarkistaa onko Lähetin kulkemalla polulla joku nappula tiellä
+         * @return true, jos polku on vapaa (sallittu), muuten false
+         */
+        if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) > 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for(int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                }
+                else {
+                    x--;
+                    y--;
+                }
+            }
+
+        }
+        else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) < 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x++;
+                    y++;
+                }
+            }
+
+        }
+        else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) > 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x++;
+                    y--;
+                }
+            }
+
+        }
+        else if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) < 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x--;
+                    y++;
+                }
+            }
+
+        }
+        return true;
+    }
+
     @Override
     public boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY) {
-        return vinoPolku(alkuX, alkuY, loppuX, loppuY);
+        return (vinoPolku(alkuX, alkuY, loppuX, loppuY) && onkoJokuTiella(alkuX, alkuY, loppuX, loppuY));
     }
 
 }

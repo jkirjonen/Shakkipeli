@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dca9a44-2936-4c62-b1db-ee9215acbc16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelaaja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelaaja.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelilauta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelilauta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Hevonen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Hevonen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
+            <state relative-caret-position="511">
               <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -32,10 +36,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="609">
               <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1754">
+              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="159" column="71" selection-start-line="159" selection-start-column="71" selection-end-line="159" selection-end-column="71" />
+            <state relative-caret-position="-1175">
+              <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,24 +146,23 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/JADev/Torni.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Peli.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Kuningas.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Nappula.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Hevonen.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" />
-        <option value="$PROJECT_DIR$/AlkuvsArvo.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="580" />
+    <option name="x" value="579" />
     <option name="y" value="195" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="width" value="1401" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,8 +197,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553778354301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553767243170" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,7 +266,7 @@
     <frame x="0" y="0" width="2560" height="1340" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25403878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25403878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -254,16 +274,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798062" weight="0.32959852" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4927302" weight="0.356676" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" x="333" y="240" width="614" height="200" id="Run" maximized="true" order="2" sideWeight="0.49757674" type="WINDOWED" weight="0.356676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49717286" weight="0.32959852" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072698" side_tool="true" weight="0.356676" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49798062" weight="0.32959852" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502834" side_tool="true" visible="true" weight="0.19005328" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.32792792" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48505655" weight="0.32959852" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49757674" weight="0.32959852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -274,7 +294,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25403878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,16 +302,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798062" weight="0.32959852" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4927302" visible="true" weight="0.356676" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49717286" weight="0.32959852" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072698" side_tool="true" visible="true" weight="0.356676" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.32792792" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48505655" weight="0.32959852" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940978" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5059022" side_tool="true" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.3293461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,20 +369,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Peli.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nullAlkuvsArvo.txt" />
+    <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt" />
+    <entry file="file://$PROJECT_DIR$/JussivsPekka.txtJussivsPekka.txt" />
+    <entry file="file://$PROJECT_DIR$/JussivsMatti.txtJussivsMatti.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -371,10 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -389,20 +398,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nullAlkuvsArvo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JussivsPekka.txtJussivsPekka.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JussivsMatti.txtJussivsMatti.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peli.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -415,13 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlkuvsArvo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -442,19 +436,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="159" column="71" selection-start-line="159" selection-start-column="71" selection-end-line="159" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
+        <state relative-caret-position="511">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -462,5 +446,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1754">
+          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Shakkipeli</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
