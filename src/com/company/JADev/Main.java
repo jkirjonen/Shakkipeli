@@ -1,6 +1,5 @@
 package com.company.JADev;
 
-import java.io.File;
 import java.util.Scanner;
 
 public class Main {
@@ -14,14 +13,19 @@ public class Main {
 
 
 
-        System.out.println("Tervetuloa pelaamaan shakkia. Paina L ladataksesi tallennuksen, aloittaaksesi uuden pelin paina enter");
+        Intro.alku();
 
         valinta = alku.nextLine();
 
+        System.out.println("Voit tallentaa peli tilanteesi komennolla tallenna");
+        System.out.println("Voit poistua pelistä komennolla exit");
+
+
 
         if ( valinta.equals("l") || valinta.equals("L") ){
+            uuspeli.lataaPelilauta();
             while(uuspeli.aloitaPeli()){
-                uuspeli.lataaPelilauta();
+                uuspeli.piirraPelilauta();
                 uuspeli.liiku();
             }
         }

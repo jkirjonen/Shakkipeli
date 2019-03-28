@@ -1,6 +1,7 @@
 package com.company.JADev;
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Pelilauta {
@@ -196,11 +197,12 @@ public class Pelilauta {
 
         if(komento.equalsIgnoreCase("tallenna")){
             //System.out.println("Peli tallennettiin tiedostoon " + Pelaaja.getTiedostoNimi());
-            System.out.println("Kiitos pelaamisesta.");
+            System.out.println("Kiitos pelaamisesta. Pelisi on tallennettu tiedostoon tallennus.txt");
             tallennus();
             pelataan = false;
 
         }
+
 
 
         komento  = komento.toLowerCase();
@@ -267,11 +269,12 @@ public class Pelilauta {
             rivit[i] = tiedosto.nextLine();
             nappulat[i] = rivit[i].split("");
         }
+        String temp= "";
 
 
+        for(int rivi=0;rivi<nappulat.length-1;rivi++) {
+            for (int indeksi = 0; indeksi < nappulat[0].length-1; indeksi++) {
 
-        for(int rivi=0;rivi<nappulat.length;rivi++) {
-            for (int indeksi = 0; indeksi < nappulat[0].length; indeksi++) {
                 switch (nappulat[rivi][indeksi]) {
                     case "\u2659":
                         pelilauta[rivi][indeksi] = new Sotilas(true);
@@ -314,6 +317,7 @@ public class Pelilauta {
 
 
                 }
+
             }
         }
 
