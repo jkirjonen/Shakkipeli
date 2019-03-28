@@ -21,12 +21,12 @@ public class Main {
 
         if ( valinta.equals("l") || valinta.equals("L") ){
             while(uuspeli.aloitaPeli()){
-                uuspeli.lataaPelilauta(new File(pelaaja.getTiedostoNimi()));
+                uuspeli.lataaPelilauta();
                 uuspeli.liiku();
             }
         }
 
-        pelaaja.asetaPelaajat();
+        //pelaaja.asetaPelaajat();
 
         while(uuspeli.aloitaPeli()){
             uuspeli.piirraPelilauta();

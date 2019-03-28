@@ -174,11 +174,13 @@ public class Pelilauta {
         }
 
         if(!valkoisenvuoro){
-        System.out.println("On " + Pelaaja.getPelaaja1() + "(valkoiset) vuoro" );
+            System.out.println("Valkoisten vuoro.");
+            //System.out.println("On " + Pelaaja.getPelaaja1() + "(valkoiset) vuoro" );
         }
 
         if(valkoisenvuoro){
-            System.out.println("On " + Pelaaja.getPelaaja2() + "(mustat) vuoro");
+            System.out.println("Mustien vuoro.");
+            //System.out.println("On " + Pelaaja.getPelaaja2() + "(mustat) vuoro");
         }
 
         System.out.print("Anna komentosi(esim. h7 h6):");
@@ -193,7 +195,7 @@ public class Pelilauta {
 
 
         if(komento.equalsIgnoreCase("tallenna")){
-            System.out.println("Peli tallennettiin tiedostoon " + Pelaaja.getTiedostoNimi());
+            //System.out.println("Peli tallennettiin tiedostoon " + Pelaaja.getTiedostoNimi());
             System.out.println("Kiitos pelaamisesta.");
             tallennus();
             pelataan = false;
@@ -226,7 +228,7 @@ public class Pelilauta {
     public void tallennus(){
 
     try {
-        File file = new File(Pelaaja.getTiedostoNimi());
+        File file = new File("tallennus.txt");
         file.createNewFile();
         FileWriter tallenna = new FileWriter(file);
 
@@ -250,21 +252,24 @@ public class Pelilauta {
     }
 
 
-    public void lataaPelilauta(File tallennus){
+    public void lataaPelilauta(){
 
         Scanner tiedosto = null;
         try {
-            tiedosto = new Scanner(tallennus);
+            tiedosto = new Scanner(new File("tallennus.txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+        String[] rivit = new String[8];
         String[][] nappulat = new String[8][8];
 
-        for(int rivi=0;rivi<pelilauta.length;rivi++){
-            for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
-                nappulat[rivi][indeksi] = tiedosto.nextLine();
-            }
+        for(int i=0;i<rivit.length;i++){
+            rivit[i] = tiedosto.nextLine();
+            nappulat[i] = rivit[i].split("");
         }
+
+
+
         for(int rivi=0;rivi<nappulat.length;rivi++) {
             for (int indeksi = 0; indeksi < nappulat[0].length; indeksi++) {
                 switch (nappulat[rivi][indeksi]) {
