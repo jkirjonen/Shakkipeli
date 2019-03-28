@@ -26,6 +26,8 @@ public class Main {
             }
         }
 
+        pelaaja.asetaPelaajat();
+
         while(uuspeli.aloitaPeli()){
             uuspeli.piirraPelilauta();
             uuspeli.liiku();

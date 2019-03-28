@@ -31,55 +31,55 @@ public class Pelilauta {
                 if(rivi == 0 && indeksi == 0){
                     pelilauta[rivi][indeksi] = new Torni(false);
                 }
-                if(rivi == 0 && indeksi == 1){
+                else if(rivi == 0 && indeksi == 1){
                     pelilauta[rivi][indeksi] = new Hevonen(false);
                 }
-                if(rivi == 0 && indeksi == 2){
+                else if(rivi == 0 && indeksi == 2){
                     pelilauta[rivi][indeksi] = new Lahetti(false);
                 }
-                if(rivi == 0 && indeksi == 3){
+                else if(rivi == 0 && indeksi == 3){
                     pelilauta[rivi][indeksi] = new Kuningatar(false);
                 }
-                if(rivi == 0 && indeksi == 4){
+                else if(rivi == 0 && indeksi == 4){
                     pelilauta[rivi][indeksi] = new Kuningas(false);
                 }
-                if(rivi == 0 && indeksi == 5){
+                else if(rivi == 0 && indeksi == 5){
                     pelilauta[rivi][indeksi] = new Lahetti(false);
                 }
-                if(rivi == 0 && indeksi == 6){
+                else if(rivi == 0 && indeksi == 6){
                     pelilauta[rivi][indeksi] = new Hevonen(false);
                 }
-                if(rivi == 0 && indeksi == 7){
+                else if(rivi == 0 && indeksi == 7){
                     pelilauta[rivi][indeksi] = new Torni(false);
                 }
-                if(rivi == 1 && indeksi < 8){
+                else if(rivi == 1 && indeksi < 8){
                     pelilauta[rivi][indeksi] = new Sotilas(false);
                 }
-                if(rivi == 6 && indeksi < 8){
+                else if(rivi == 6 && indeksi < 8){
                     pelilauta[rivi][indeksi] = new Sotilas(true);
                 }
-                if(rivi == 7 && indeksi == 0){
+                else if(rivi == 7 && indeksi == 0){
                     pelilauta[rivi][indeksi] = new Torni(true);
                 }
-                if(rivi == 7 && indeksi == 1){
+                else if(rivi == 7 && indeksi == 1){
                     pelilauta[rivi][indeksi] = new Hevonen(true);
                 }
-                if(rivi == 7 && indeksi == 2){
+                else if(rivi == 7 && indeksi == 2){
                     pelilauta[rivi][indeksi] = new Lahetti(true);
                 }
-                if(rivi == 7 && indeksi == 3){
+                else if(rivi == 7 && indeksi == 3){
                     pelilauta[rivi][indeksi] = new Kuningatar(true);
                 }
-                if(rivi == 7 && indeksi == 4){
+                else if(rivi == 7 && indeksi == 4){
                     pelilauta[rivi][indeksi] = new Kuningas(true);
                 }
-                if(rivi == 7 && indeksi == 5){
+                else if(rivi == 7 && indeksi == 5){
                     pelilauta[rivi][indeksi] = new Lahetti(true);
                 }
-                if(rivi == 7 && indeksi == 6){
+                else if(rivi == 7 && indeksi == 6){
                     pelilauta[rivi][indeksi] = new Hevonen(true);
                 }
-                if(rivi == 7 && indeksi == 7){
+                else if(rivi == 7 && indeksi == 7){
                     pelilauta[rivi][indeksi] = new Torni(true);
                 }
                 else{
@@ -97,7 +97,7 @@ public class Pelilauta {
         System.out.println("\ta\tb\tc\td\te\tf\tg\th");
 
         for(int rivi=0;rivi<pelilauta.length;rivi++){
-            System.out.print(rivi +1 + "  ");
+            System.out.print(8 - rivi + ".\t");
             for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){
                 if(pelilauta[rivi][indeksi] != null){
                     pelilauta[rivi][indeksi].piirra();
@@ -154,15 +154,15 @@ public class Pelilauta {
             laitonSiirto = false;
         }
 
-        if(valkoisenvuoro){
-        System.out.print("On valkoisen vuoro. Anna komentosi:");
-        }
-
         if(!valkoisenvuoro){
-            System.out.print("On mustien vuoro. Anna komentosi:");
+        System.out.println("On valkoisen vuoro.");
         }
 
+        if(valkoisenvuoro){
+            System.out.println("On mustien vuoro.");
+        }
 
+        System.out.print("Anna komentosi(esim. h7 h6):");
         komento = syote.nextLine();
 
 
@@ -174,10 +174,11 @@ public class Pelilauta {
 
 
         if(komento.equalsIgnoreCase("tallenna")){
-            tallennus();
-            pelataan = false;
             System.out.println("Peli tallennettiin tiedostoon" + Pelaaja.getTiedostoNimi());
             System.out.println("Kiitos pelaamisesta.");
+            tallennus();
+            pelataan = false;
+
         }
 
 
@@ -211,7 +212,7 @@ public class Pelilauta {
             e.printStackTrace();
         }
 
-
+        tallenna.println("Shakkipeli");
         for(int rivi=0;rivi<pelilauta.length;rivi++){
             if(rivi>0){ System.out.println(); }
             for(int indeksi=0;indeksi<pelilauta[0].length;indeksi++){

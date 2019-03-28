@@ -1,5 +1,7 @@
 package com.company.JADev;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Pelaaja {
@@ -7,15 +9,17 @@ public class Pelaaja {
     private static String pelaaja1 = "Alku";
     private static String pelaaja2 = "Arvo";
     private Scanner nimi = new Scanner(System.in);
-    private static String tiedostoNimi;
+    private static String tiedostoNimi = "";
+
 
     public void asetaPelaajat() {
        System.out.println("Anna nimesi pelaaja1:");
        setPelaaja1(nimi.nextLine());
-       System.out.println("Terve" + pelaaja1 + ".");
+       System.out.println("Terve " + pelaaja1 + ".");
        System.out.println("Anna nimesi pelaaja2:");
        setPelaaja2(nimi.nextLine());
-       System.out.println("Terve" + pelaaja2 + ". Aloitetaan...");
+       System.out.println("Terve " + pelaaja2 + ". Aloitetaan...");
+
     }
 
     public String getPelaaja1() {
@@ -39,4 +43,5 @@ public class Pelaaja {
         tiedostoNimi = tiedostoNimi + pelaaja1 + "vs" + pelaaja2 + ".txt";
         return tiedostoNimi;
     }
+
 }
