@@ -34,6 +34,59 @@ public class Kuningatar extends Nappula {
         return !((alkuX != loppuX) && alkuY != loppuY);
     }
 
+    private static boolean onkoSuoraPolkuVapaa(int alkuX, int alkuY, int loppuX, int loppuY) {
+        /**
+         * Tarkistaa onko Kuningattaren kulkemalla suoralla polulla joku nappula tiellä
+         * @return true, jos polku on vapaa (sallittu), muuten false
+         */
+        if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) == 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for(int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                }
+                else {
+                    x--;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) == 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x++;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) == 0) && ((alkuY - loppuY) > 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    y--;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) == 0) && ((alkuY - loppuY) < 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    y++;
+                }
+            }
+        }
+        return true;
+    }
+
     private static boolean vinoPolku(int alkuX, int alkuY, int loppuX, int loppuY) {
         /**
          * Tarkistaa onko Kuningattaren kulkema polku vino
@@ -42,9 +95,67 @@ public class Kuningatar extends Nappula {
         return ((Math.abs(alkuX - loppuX) == Math.abs(alkuY - loppuY)));
     }
 
+    private static boolean onkoVinoPolkuVapaa(int alkuX, int alkuY, int loppuX, int loppuY) {
+        /**
+         * Tarkistaa onko Kuningattaren kulkemalla vinolla polulla joku nappula tiellä
+         * @return true, jos polku on vapaa (sallittu), muuten false
+         */
+        if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) > 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for(int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                }
+                else {
+                    x--;
+                    y--;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) < 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x++;
+                    y++;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) > 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x++;
+                    y--;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) < 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x--;
+                    y++;
+                }
+            }
+        }
+        return true;
+    }
+
     @Override
     public boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY) {
-        return (suoraPolku(alkuX, alkuY, loppuX, loppuY)) ||  (vinoPolku(alkuX, alkuY, loppuX, loppuY));
+        return ((suoraPolku(alkuX, alkuY, loppuX, loppuY) && onkoSuoraPolkuVapaa(alkuX, alkuY, loppuX, loppuY))
+                ||  (vinoPolku(alkuX, alkuY, loppuX, loppuY) && onkoVinoPolkuVapaa(alkuX, alkuY, loppuX, loppuY)));
     }
 
 }

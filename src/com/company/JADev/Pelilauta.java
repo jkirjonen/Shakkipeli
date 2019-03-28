@@ -132,6 +132,20 @@ public class Pelilauta {
             return false;
         }
 
+        if(pelilauta[loppuX][loppuY] == null) {
+            return true;
+        }
+
+        if(pelilauta[alkuX][alkuY].onValkoinen && pelilauta[loppuX][loppuY].onValkoinen) {
+            System.out.println("Et voi siirtyä oman nappulasi päälle.");
+            return false;
+        }
+
+        if(!pelilauta[alkuX][alkuY].onValkoinen && !pelilauta[loppuX][loppuY].onValkoinen) {
+            System.out.println("Et voi siirtyä oman nappulasi päälle.");
+            return false;
+        }
+
         if(pelilauta[alkuX][alkuY].onValkoinen() && !valkoisenvuoro){
             System.out.println("Ei ole sinun vuorosi");
             return false;

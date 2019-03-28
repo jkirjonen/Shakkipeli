@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dca9a44-2936-4c62-b1db-ee9215acbc16" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Hevonen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Hevonen.class" afterDir="false" />
@@ -9,10 +12,12 @@
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelilauta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelilauta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" afterDir="false" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Torni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Torni.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,16 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="511">
               <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -48,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1754">
-              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,8 +66,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="374">
+              <caret line="43" column="83" lean-forward="true" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+=======
             <state relative-caret-position="348">
               <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
@@ -66,11 +81,28 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="37" column="76" lean-forward="true" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-75">
               <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
             </state>
           </provider>
         </entry>
@@ -78,8 +110,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="228">
+              <caret line="157" column="108" lean-forward="true" selection-start-line="157" selection-start-column="108" selection-end-line="157" selection-end-column="108" />
+=======
             <state relative-caret-position="1015">
               <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
             </state>
           </provider>
         </entry>
@@ -93,8 +130,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java">
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
@@ -112,11 +154,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-452">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+<<<<<<< HEAD
+            <state relative-caret-position="-204">
+              <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+=======
+            <state relative-caret-position="-1175">
+              <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,25 +186,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Torni.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Peli.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Kuningas.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Nappula.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Hevonen.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Torni.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="580" />
+    <option name="x" value="579" />
     <option name="y" value="195" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="width" value="1401" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,7 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553790718380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553767243170" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -259,8 +306,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1340" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25403878" />
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20080972" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25403878" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -269,15 +321,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="0" y="84" width="2560" height="1256" id="Run" maximized="true" order="2" sideWeight="0.49757674" type="WINDOWED" weight="0.356676" />
+      <window_info active="true" anchor="bottom" x="0" y="23" width="1281" height="658" id="Run" maximized="true" order="2" sideWeight="0.49757674" type="WINDOWED" visible="true" weight="0.356676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49717286" visible="true" weight="0.32959852" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49878836" weight="0.3277311" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4963651" weight="0.32959852" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50282717" side_tool="true" visible="true" weight="0.32959852" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49798062" weight="0.32959852" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502834" side_tool="true" visible="true" weight="0.19005328" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.32792792" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49757674" weight="0.32959852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,6 +339,33 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812816" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940978" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5059022" side_tool="true" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.3293461" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -337,8 +416,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Peli.java" />
     <entry file="file://$PROJECT_DIR$/nullAlkuvsArvo.txt" />
+    <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt" />
     <entry file="file://$PROJECT_DIR$/JussivsPekka.txtJussivsPekka.txt" />
     <entry file="file://$PROJECT_DIR$/JussivsMatti.txtJussivsMatti.txt" />
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -346,6 +428,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -353,35 +436,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="51">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+=======
         <state relative-caret-position="348">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
           <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Kuningatar.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="228">
+          <caret line="157" column="108" lean-forward="true" selection-start-line="157" selection-start-column="108" selection-end-line="157" selection-end-column="108" />
+=======
         <state relative-caret-position="1015">
           <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="136">
+          <caret line="37" column="76" lean-forward="true" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+=======
         <state relative-caret-position="348">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Sotilas.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="374">
+          <caret line="43" column="83" lean-forward="true" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+=======
         <state relative-caret-position="609">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
@@ -402,39 +515,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Nappula.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1754">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JussivsAlkesi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+<<<<<<< HEAD
+        <state relative-caret-position="646">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+=======
+        <state relative-caret-position="511">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-204">
+          <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4840#4841#0" expanded="true" />
+            <element signature="e#4871#4872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Hevonen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <state relative-caret-position="1754">
+          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 1ab2cac188fe6fe2871508710a57984b7ce91bee
         </state>
       </provider>
     </entry>
