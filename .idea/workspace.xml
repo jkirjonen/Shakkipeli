@@ -9,9 +9,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Kuningatar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Lahetti.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Nappula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelilauta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Pelilauta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Sotilas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shakkipeli/com/company/JADev/Torni.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,21 +23,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
+            <state relative-caret-position="158">
               <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -53,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1754">
-              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -117,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1175">
-              <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+            <state relative-caret-position="-452">
+              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,16 +148,16 @@
         <option value="$PROJECT_DIR$/src/com/company/JADev/Sotilas.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Pelaaja.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" />
         <option value="$PROJECT_DIR$/src/com/company/JADev/Lahetti.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="579" />
+    <option name="x" value="580" />
     <option name="y" value="195" />
-    <option name="width" value="1401" />
-    <option name="height" value="1001" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -197,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553767243170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553790718380" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -264,9 +259,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1340" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25403878" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25403878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,15 +269,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="333" y="240" width="614" height="200" id="Run" maximized="true" order="2" sideWeight="0.49757674" type="WINDOWED" weight="0.356676" />
+      <window_info anchor="bottom" x="0" y="84" width="2560" height="1256" id="Run" maximized="true" order="2" sideWeight="0.49757674" type="WINDOWED" weight="0.356676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49798062" weight="0.32959852" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502834" side_tool="true" visible="true" weight="0.19005328" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.32792792" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49757674" weight="0.32959852" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49717286" visible="true" weight="0.32959852" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49878836" weight="0.3277311" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4963651" weight="0.32959852" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50282717" side_tool="true" visible="true" weight="0.32959852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,33 +287,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812816" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.3293461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940978" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5059022" side_tool="true" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992057" weight="0.3293461" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -370,7 +337,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Peli.java" />
     <entry file="file://$PROJECT_DIR$/nullAlkuvsArvo.txt" />
-    <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt" />
     <entry file="file://$PROJECT_DIR$/JussivsPekka.txtJussivsPekka.txt" />
     <entry file="file://$PROJECT_DIR$/JussivsMatti.txtJussivsMatti.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Torni.java">
@@ -436,27 +402,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="1754">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JussivsAleksi.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JussivsAlkesi.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Lahetti.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1754">
-          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JADev/Pelilauta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1175">
-          <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+        <state relative-caret-position="158">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
