@@ -35,12 +35,12 @@ public class Sotilas extends Nappula {
          */
         if (this.onValkoinen) {
             return (((alkuY == loppuY) && alkuX == (loppuX + 1))
-                    || ((alkuX == 6) && (alkuY == loppuY) && (alkuX == (loppuX + 2)))
+                    || ((alkuX == 6) && (alkuY == loppuY) && (alkuX == (loppuX + 2)) && Pelilauta.onTyhja(alkuX-1, alkuY))
                     ||((alkuX == (loppuX + 1)) && (Math.abs(alkuY - loppuY) == 1)));
         }
         else {
             return (((alkuY == loppuY) && alkuX == (loppuX -1))
-                    || ((alkuX == 1) && (alkuY == loppuY) &&(alkuX == (loppuX - 2)))
+                    || ((alkuX == 1) && (alkuY == loppuY) &&(alkuX == (loppuX - 2)) && Pelilauta.onTyhja(alkuX+1, alkuY))
                     || ((alkuX == (loppuX - 1)) && (Math.abs(alkuY - loppuY) == 1)));
         }
 

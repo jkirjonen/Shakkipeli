@@ -35,9 +35,62 @@ public class Torni extends Nappula {
         return !((alkuX != loppuX) && alkuY != loppuY);
     }
 
+    private static boolean onkoPolkuVapaa(int alkuX, int alkuY, int loppuX, int loppuY) {
+        /**
+         * Tarkistaa onko Tornin kulkemalla polulla joku nappula tiellä
+         * @return true, jos polku on vapaa (sallittu), muuten false
+         */
+        if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) == 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for(int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                }
+                else {
+                    x--;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) == 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    x++;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) == 0) && ((alkuY - loppuY) > 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    y--;
+                }
+            }
+        }
+        else if(((alkuX - loppuX) == 0) && ((alkuY - loppuY) < 0)) {
+            int x = alkuX;
+            int y = alkuY;
+            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+                if(!(Pelilauta.onTyhja(x, y))) {
+                    return false;
+                } else {
+                    y++;
+                }
+            }
+        }
+        return true;
+    }
+
     @Override
     public boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY) {
-        return suoraPolku(alkuX, alkuY, loppuX, loppuY);
+        return (suoraPolku(alkuX, alkuY, loppuX, loppuY) && onkoPolkuVapaa(alkuX, alkuY, loppuX, loppuY));
     }
 
 }
