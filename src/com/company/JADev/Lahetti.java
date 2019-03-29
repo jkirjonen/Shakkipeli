@@ -41,9 +41,9 @@ public class Lahetti extends Nappula {
          * @return true, jos polku on vapaa (sallittu), muuten false
          */
         if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) > 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for(int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX - 1;
+            int y = alkuY - 1;
+            for(int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 }
@@ -54,9 +54,9 @@ public class Lahetti extends Nappula {
             }
         }
         else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) < 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX + 1;
+            int y = alkuY + 1;
+            for (int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
@@ -66,9 +66,9 @@ public class Lahetti extends Nappula {
             }
         }
         else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) > 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX + 1;
+            int y = alkuY - 1;
+            for (int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
@@ -78,9 +78,9 @@ public class Lahetti extends Nappula {
             }
         }
         else if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) < 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX - 1;
+            int y = alkuY + 1;
+            for (int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {

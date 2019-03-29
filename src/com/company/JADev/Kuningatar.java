@@ -40,9 +40,9 @@ public class Kuningatar extends Nappula {
          * @return true, jos polku on vapaa (sallittu), muuten false
          */
         if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) == 0)) {
-            int x = alkuX;
+            int x = alkuX -1;
             int y = alkuY;
-            for(int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            for(int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 }
@@ -52,9 +52,9 @@ public class Kuningatar extends Nappula {
             }
         }
         else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) == 0)) {
-            int x = alkuX;
+            int x = alkuX + 1;
             int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            for (int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
@@ -64,8 +64,8 @@ public class Kuningatar extends Nappula {
         }
         else if(((alkuX - loppuX) == 0) && ((alkuY - loppuY) > 0)) {
             int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int y = alkuY - 1;
+            for (int i = 1; i < Math.abs(alkuY - loppuY); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
@@ -75,8 +75,8 @@ public class Kuningatar extends Nappula {
         }
         else if(((alkuX - loppuX) == 0) && ((alkuY - loppuY) < 0)) {
             int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int y = alkuY +1;
+            for (int i = 1; i < Math.abs(alkuY - loppuY); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
@@ -101,9 +101,9 @@ public class Kuningatar extends Nappula {
          * @return true, jos polku on vapaa (sallittu), muuten false
          */
         if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) > 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for(int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX - 1;
+            int y = alkuY - 1;
+            for(int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 }
@@ -114,9 +114,9 @@ public class Kuningatar extends Nappula {
             }
         }
         else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) < 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX + 1;
+            int y = alkuY + 1;
+            for (int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
@@ -126,9 +126,9 @@ public class Kuningatar extends Nappula {
             }
         }
         else if(((alkuX - loppuX) < 0) && ((alkuY - loppuY) > 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX + 1;
+            int y = alkuY - 1;
+            for (int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
@@ -138,9 +138,9 @@ public class Kuningatar extends Nappula {
             }
         }
         else if(((alkuX - loppuX) > 0) && ((alkuY - loppuY) < 0)) {
-            int x = alkuX;
-            int y = alkuY;
-            for (int i = 0; i < Math.abs(alkuX - loppuX); i++) {
+            int x = alkuX - 1;
+            int y = alkuY + 1;
+            for (int i = 1; i < Math.abs(alkuX - loppuX); i++) {
                 if(!(Pelilauta.onTyhja(x, y))) {
                     return false;
                 } else {
