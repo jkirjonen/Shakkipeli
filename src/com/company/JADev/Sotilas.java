@@ -34,14 +34,14 @@ public class Sotilas extends Nappula {
          * 2 eteenpäin tai syödä vastapuolen nappulan
          */
         if (this.onValkoinen) {
-            return (((alkuY == loppuY) && alkuX == (loppuX + 1))
-                    || ((alkuX == 6) && (alkuY == loppuY) && (alkuX == (loppuX + 2)) && Pelilauta.onTyhja(alkuX-1, alkuY))
-                    ||((alkuX == (loppuX + 1)) && (Math.abs(alkuY - loppuY) == 1)));
+            return (((alkuY == loppuY) && alkuX == (loppuX + 1) && Pelilauta.onTyhja(loppuX, loppuY))
+                    || ((alkuX == 6) && (alkuY == loppuY) && (alkuX == (loppuX + 2)) && Pelilauta.onTyhja(alkuX-1, alkuY) && Pelilauta.onTyhja(loppuX, loppuY))
+                    ||((alkuX == (loppuX + 1)) && (Math.abs(alkuY - loppuY) == 1) && !Pelilauta.onTyhja(loppuX, loppuY)));
         }
         else {
-            return (((alkuY == loppuY) && alkuX == (loppuX -1))
-                    || ((alkuX == 1) && (alkuY == loppuY) &&(alkuX == (loppuX - 2)) && Pelilauta.onTyhja(alkuX+1, alkuY))
-                    || ((alkuX == (loppuX - 1)) && (Math.abs(alkuY - loppuY) == 1)));
+            return (((alkuY == loppuY) && alkuX == (loppuX -1) && Pelilauta.onTyhja(loppuX, loppuY))
+                    || ((alkuX == 1) && (alkuY == loppuY) &&(alkuX == (loppuX - 2)) && Pelilauta.onTyhja(alkuX+1, alkuY) && Pelilauta.onTyhja(loppuX, loppuY))
+                    || ((alkuX == (loppuX - 1)) && (Math.abs(alkuY - loppuY) == 1) && !Pelilauta.onTyhja(loppuX, loppuY)));
         }
 
     }

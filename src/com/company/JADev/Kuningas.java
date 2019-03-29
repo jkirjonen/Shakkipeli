@@ -28,7 +28,7 @@ public class Kuningas extends Nappula {
 
     @Override
     public boolean onkoSallittu(int alkuX, int alkuY, int loppuX, int loppuY) {
-        return Math.abs(alkuX - loppuX) <= 1 || Math.abs(alkuY - loppuY) <= 1;
+        return Math.abs(alkuX - loppuX) <= 1 && Math.abs(alkuY - loppuY) <= 1;
     }
 
 }
