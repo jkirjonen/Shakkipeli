@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Pelilauta {
     private static Nappula[][] pelilauta = new Nappula[8][8];
     private static boolean pelataan = true;
-    private static boolean valkoisenvuoro;
+    private static boolean valkoisenvuoro = true;
     private static Scanner syote = new Scanner(System.in);
     private static String komento;
     private static int alkuX;
@@ -15,7 +15,7 @@ public class Pelilauta {
     private static int loppuX;
     private static int loppuY;
     private static boolean laitonSiirto;
-    static boolean musa =true;
+    static boolean musa = true;
     public Pelilauta(){
         asetaPelilauta();
 
@@ -144,6 +144,11 @@ public class Pelilauta {
             return false;
         }
 
+        if(alkuX < 0 || alkuX > 7 || alkuY < 0 || alkuY > 7){
+            System.out.println("Siirtosi on laudan ulkopuolella!");
+            return false;
+        }
+
         if(pelilauta[alkuX][alkuY] == null){
             System.out.println("Ruutu on tyhjä, valitse jokin omista nappuloistasi");
             return false;
@@ -263,6 +268,7 @@ public class Pelilauta {
                 System.out.println("Virheellinen komento. Siirrot muodossa h7 h5.");
                 System.out.println("Komennolla tallenna voit tallentaa pelin ja komennolla exit lopettaa pelin.");
                 liiku();
+
             }
         }
         if(onkoSallittu()){
