@@ -128,18 +128,21 @@ public class Pelilauta {
             return false;
         }
 
+        if((pelilauta[alkuX][alkuY].onValkoinen && !valkoisenvuoro) ||
+                (!pelilauta[alkuX][alkuY].onValkoinen() && valkoisenvuoro))  {
+            System.out.println("Ei ole sinun vuorosi");
+            return false;
+
+        }
+
         if(!pelilauta[alkuX][alkuY].onkoSallittu(alkuX,alkuY,loppuX,loppuY)) {
             System.out.println("Nappula ei liiku näin. Katso: https://fi.wikipedia.org/wiki/Shakki");
             return false;
         }
 
+
         if(pelilauta[loppuX][loppuY] == null) {
             return true;
-        }
-
-        if(pelilauta[alkuX][alkuY].onValkoinen && pelilauta[loppuX][loppuY].onValkoinen) {
-            System.out.println("Et voi siirtyä oman nappulasi päälle.");
-            return false;
         }
 
         if(!pelilauta[alkuX][alkuY].onValkoinen && !pelilauta[loppuX][loppuY].onValkoinen) {
@@ -147,15 +150,11 @@ public class Pelilauta {
             return false;
         }
 
-        if(pelilauta[alkuX][alkuY].onValkoinen() && !valkoisenvuoro){
-            System.out.println("Ei ole sinun vuorosi");
+        if(pelilauta[alkuX][alkuY].onValkoinen && pelilauta[loppuX][loppuY].onValkoinen) {
+            System.out.println("Et voi siirtyä oman nappulasi päälle.");
             return false;
-
         }
 
-        if(pelilauta[loppuX][loppuY] == null){
-            return true;
-        }
 
         return true;
 
@@ -174,46 +173,52 @@ public class Pelilauta {
             laitonSiirto = false;
         }
 
-        if(!valkoisenvuoro){
-            System.out.println("Valkoisten vuoro.");
+        if(valkoisenvuoro){
+            System.out.println("Valkoisten vuoro. \u2656 ");
             //System.out.println("On " + Pelaaja.getPelaaja1() + "(valkoiset) vuoro" );
         }
 
-        if(valkoisenvuoro){
-            System.out.println("Mustien vuoro.");
+        if(!valkoisenvuoro){
+            System.out.println("Mustien vuoro. \u265C ");
             //System.out.println("On " + Pelaaja.getPelaaja2() + "(mustat) vuoro");
         }
 
         System.out.print("Anna komentosi(esim. h7 h6):");
+
+
         komento = syote.nextLine();
-
-
-        if(komento.equalsIgnoreCase("exit")){
-        pelataan = false;
-        System.out.println("Lopetit pelin. Kiitos pelaamisesta.");
-
-        }
-
-
-        if(komento.equalsIgnoreCase("tallenna")){
-            //System.out.println("Peli tallennettiin tiedostoon " + Pelaaja.getTiedostoNimi());
-            System.out.println("Kiitos pelaamisesta. Pelisi on tallennettu tiedostoon tallennus.txt");
-            tallennus();
-            pelataan = false;
-
-        }
-
 
 
         komento  = komento.toLowerCase();
 
-        String[] siirrot = komento.split(" ");
+        try {
+            String[] siirrot = komento.split(" ");
 
-        alkuX = 7 - (siirrot[0].charAt(1) - '1');
-        alkuY = siirrot[0].charAt(0) - 'a';
-        loppuX = 7 - (siirrot[1].charAt(1) - '1');
-        loppuY = siirrot[1].charAt(0) - 'a';
+            alkuX = 7 - (siirrot[0].charAt(1) - '1');
+            alkuY = siirrot[0].charAt(0) - 'a';
+            loppuX = 7 - (siirrot[1].charAt(1) - '1');
+            loppuY = siirrot[1].charAt(0) - 'a';
+        }catch(Exception e){
+            if(komento.equalsIgnoreCase("exit")){
+                pelataan = false;
+                System.out.println("Lopetit pelin. Kiitos pelaamisesta.");
 
+            }
+
+            else if(komento.equalsIgnoreCase("tallenna")){
+                //System.out.println("Peli tallennettiin tiedostoon " + Pelaaja.getTiedostoNimi());
+                System.out.println("Kiitos pelaamisesta. Pelisi on tallennettu tiedostoon tallennus.txt");
+                tallennus();
+                pelataan = false;
+
+            }
+
+            else {
+                System.out.println("Virheellinen komento. Siirrot muodossa h7 h5.");
+                System.out.println("Komennolla tallenna voit tallentaa pelin ja komennolla exit lopettaa pelin.");
+                liiku();
+            }
+        }
         if(onkoSallittu()){
             pelilauta[loppuX][loppuY] = pelilauta[alkuX][alkuY];
             pelilauta[alkuX][alkuY] = null;
