@@ -15,7 +15,7 @@ public class Pelilauta {
     private static int loppuX;
     private static int loppuY;
     private static boolean laitonSiirto;
-
+    static boolean musa =true;
     public Pelilauta(){
         asetaPelilauta();
 
@@ -245,8 +245,17 @@ public class Pelilauta {
             }
 
             else if(komento.equalsIgnoreCase("musa")){
-                Intro.lopeta();
-                liiku();
+                if(musa) {
+                    Intro.lopeta();
+                    musa = !musa;
+                    liiku();
+                }
+                else{
+                    Intro.soita("peli.wav");
+                    musa = !musa;
+                    liiku();
+                }
+
 
             }
 

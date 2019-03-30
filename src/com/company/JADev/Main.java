@@ -10,7 +10,7 @@ public class Main {
         Pelaaja pelaaja = new Pelaaja();
         Scanner alku = new Scanner(System.in);
         String valinta;
-        boolean musa =true;
+
 
 
 
@@ -22,6 +22,9 @@ public class Main {
 
         System.out.println("Voit tallentaa peli tilanteesi komennolla tallenna");
         System.out.println("Voit poistua pelistä komennolla exit");
+        System.out.println("Musiikin saat päälle ja pois komennolla musa");
+
+
 
         Intro.lopeta();
         Intro.soita("peli.wav");
