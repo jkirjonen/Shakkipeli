@@ -22,6 +22,10 @@ public class Pelilauta {
 
     }
 
+    /**
+    Asettaa pelinappulat laudalle oikeaan järjestykseen.
+     */
+
     private void asetaPelilauta(){
 
 
@@ -90,12 +94,24 @@ public class Pelilauta {
         }
     }
 
+    /**
+     * Tarkistaa onko pelilaudan ruutu tyhjä.
+     * @param x
+     * @param y
+     * @return palauttaa true jos ruudussa ei ole nappulaa.
+     */
+
     public static boolean onTyhja(int x, int y) {
         if(pelilauta[x][y] == null) {
             return true;
         }
         return false;
     }
+
+    /**
+     * Piirtää pelilaudan ja siihen nappulat ruuduissa olevien nappuloiden mukaan kutsumalla
+     * eri nappulaluokista piirra metodia.
+     */
 
 
     public void piirraPelilauta(){
@@ -115,6 +131,11 @@ public class Pelilauta {
             System.out.println();
         }
     }
+
+    /**
+     * Tarkistaa onko mahdollinen siirto sallittu.
+     * @return
+     */
 
     private boolean onkoSallittu(){
 
@@ -161,10 +182,20 @@ public class Pelilauta {
 
         }
 
+    /**
+     *
+      * @return palauttaa muuttujan pelataan, jolla peli pysyy käynnissä.
+     */
 
     public boolean aloitaPeli() {
         return pelataan;
     }
+
+    /**
+     * Ottaa pelissä kommennot vastaan tekstinä (d2 d4) ja vie sen taulukkoon josta se asetetaan muuttujien
+     * alkuX, alkuY, loppuX ja loppuY arvoihin. Kutsutaan onkoSallittu() metodia ja jos on true niin
+     * siirretään Nappula oliota pelilaudalla. Vaihdetaan vuoroa muuttamalla muuttuja valkoisenvuoro.
+     */
 
     public void liiku(){
 
@@ -213,6 +244,12 @@ public class Pelilauta {
 
             }
 
+            else if(komento.equalsIgnoreCase("musa")){
+                Intro.lopeta();
+                liiku();
+
+            }
+
             else {
                 System.out.println("Virheellinen komento. Siirrot muodossa h7 h5.");
                 System.out.println("Komennolla tallenna voit tallentaa pelin ja komennolla exit lopettaa pelin.");
@@ -231,6 +268,14 @@ public class Pelilauta {
 
 
     }
+
+    /**
+     * Luodaan uusi tiedosto tai jos jo olemassa, ylikirjoitetaan aina tallennettaessa.
+     * Piirretään tekstitiedostoon pelilaudan tilanne käyttämällä Nappula olioissa olevaa
+     * annaMerkki metodia joka palauttaa Shakki nappulaa vastaavan symbolin ruutu kerrallaan,
+     * jos ei ruudulla ole nappulaa piirtää välilyönnin.
+     *
+     */
 
     public void tallennus(){
 
@@ -257,6 +302,13 @@ public class Pelilauta {
         e.printStackTrace();
         }
     }
+
+    /**
+     * Lukee tiedostosta tallennus.txt pelitilanteen käyttämällä sinne tallennettuja nappula symboleja.
+     * Luetaan tekstitiedostosta rivi kerrallaan String taulukkoon ja siitä suoraan string kerrallaan
+     * splitillä merkeittäin matriisiin. Luodaan pelilauta symbolien perusteella. Peli tilanteen voi myös
+     * katsoa suoraan tekstitiedostosta.
+     */
 
 
     public void lataaPelilauta(){

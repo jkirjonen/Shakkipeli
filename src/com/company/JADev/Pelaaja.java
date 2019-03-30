@@ -11,6 +11,14 @@ public class Pelaaja {
     private static String tiedostoNimi = "";
 
 
+    /*
+    Luokan tarkoituksena on yksilöidä pelaajat ja mahdollistaa eri pelaajien
+    välisten otteluiden tallennukset esim. Pelaaja Jussi ja Pelaaja Aleksi tallentavat
+    peli tilanteensa niin peli tallentuu tiedostoon JussivsAleksi.txt
+
+    Luokka ei ole käytössä tällä hetkellä.
+     */
+
 
     public void asetaPelaajat() {
        System.out.println("Anna nimesi pelaaja1:");

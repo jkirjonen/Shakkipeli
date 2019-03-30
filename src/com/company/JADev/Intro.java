@@ -1,5 +1,10 @@
 package com.company.JADev;
 
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import java.io.File;
+
 public class Intro {
 
     public static void alku(){
@@ -26,6 +31,25 @@ public class Intro {
         System.out.println("              Aloittaaksesi uuden pelin paina   enter");
 
 
+    }
+    private static AudioInputStream audioIn;
+    private static Clip clip;
+
+    public static void soita(String soundFile) {
+        try {
+
+            File f = new File("./" + soundFile);
+            audioIn = AudioSystem.getAudioInputStream(f.toURI().toURL());
+            clip = AudioSystem.getClip();
+            clip.open(audioIn);
+            clip.loop(100);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public static void lopeta(){
+        clip.close();
     }
 }
 

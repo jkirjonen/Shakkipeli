@@ -10,17 +10,21 @@ public class Main {
         Pelaaja pelaaja = new Pelaaja();
         Scanner alku = new Scanner(System.in);
         String valinta;
+        boolean musa =true;
 
 
 
         Intro.alku();
+
+        Intro.soita("alku.wav");
 
         valinta = alku.nextLine();
 
         System.out.println("Voit tallentaa peli tilanteesi komennolla tallenna");
         System.out.println("Voit poistua pelistä komennolla exit");
 
-
+        Intro.lopeta();
+        Intro.soita("peli.wav");
 
         if ( valinta.equals("l") || valinta.equals("L") ){
             uuspeli.lataaPelilauta();
@@ -35,6 +39,7 @@ public class Main {
         while(uuspeli.aloitaPeli()){
             uuspeli.piirraPelilauta();
             uuspeli.liiku();
+
 
         }
 
