@@ -16,6 +16,10 @@ public class Pelilauta {
     private static int loppuY;
     private static boolean laitonSiirto;
     static boolean musa =true;
+
+
+
+
     public Pelilauta(){
         asetaPelilauta();
 
@@ -197,19 +201,19 @@ public class Pelilauta {
      * siirretään Nappula oliota pelilaudalla. Vaihdetaan vuoroa muuttamalla muuttuja valkoisenvuoro.
      */
 
-    public void liiku(){
+    public void liiku() {
 
-        if(laitonSiirto){
+        if (laitonSiirto) {
             System.out.println("Siirtosi on laiton, yritä uudestaan.");
             laitonSiirto = false;
         }
 
-        if(valkoisenvuoro){
+        if (valkoisenvuoro) {
             System.out.println("Valkoisten vuoro. \u2656 ");
             //System.out.println("On " + Pelaaja.getPelaaja1() + "(valkoiset) vuoro" );
         }
 
-        if(!valkoisenvuoro){
+        if (!valkoisenvuoro) {
             System.out.println("Mustien vuoro. \u265C ");
             //System.out.println("On " + Pelaaja.getPelaaja2() + "(mustat) vuoro");
         }
@@ -220,23 +224,27 @@ public class Pelilauta {
         komento = syote.nextLine();
 
 
-        komento  = komento.toLowerCase();
+        komento = komento.toLowerCase();
 
         try {
+
             String[] siirrot = komento.split(" ");
 
             alkuX = 7 - (siirrot[0].charAt(1) - '1');
             alkuY = siirrot[0].charAt(0) - 'a';
             loppuX = 7 - (siirrot[1].charAt(1) - '1');
             loppuY = siirrot[1].charAt(0) - 'a';
-        }catch(Exception e){
-            if(komento.equalsIgnoreCase("exit")){
-                pelataan = false;
+        }catch (Exception e) {
+
+
+            if (komento.equalsIgnoreCase("exit")) {
                 System.out.println("Lopetit pelin. Kiitos pelaamisesta.");
+                pelataan = false;
+
 
             }
 
-            else if(komento.equalsIgnoreCase("tallenna")){
+            if (komento.equalsIgnoreCase("tallenna")) {
                 //System.out.println("Peli tallennettiin tiedostoon " + Pelaaja.getTiedostoNimi());
                 System.out.println("Kiitos pelaamisesta. Pelisi on tallennettu tiedostoon tallennus.txt");
                 tallennus();
@@ -244,39 +252,45 @@ public class Pelilauta {
 
             }
 
-            else if(komento.equalsIgnoreCase("musa")){
-                if(musa) {
+            if (komento.equalsIgnoreCase("musa")) {
+                if (musa) {
                     Intro.lopeta();
                     musa = !musa;
-                    liiku();
-                }
-                else{
+                    return;
+
+
+                } else {
                     Intro.soita("peli.wav");
                     musa = !musa;
-                    liiku();
+                    return;
                 }
 
 
+            } else {
+                System.out.println("Laiton komento. Anna komennot muodossa h7 h5. ");
+                System.out.println("Muut sallitut komennot ovat musa, tallenna ja exit.");
+
+
+                return;
+            }
+        }
+
+        if (onkoSallittu()) {
+                pelilauta[loppuX][loppuY] = pelilauta[alkuX][alkuY];
+                pelilauta[alkuX][alkuY] = null;
+                valkoisenvuoro = !valkoisenvuoro;
+
             }
 
-            else {
-                System.out.println("Virheellinen komento. Siirrot muodossa h7 h5.");
-                System.out.println("Komennolla tallenna voit tallentaa pelin ja komennolla exit lopettaa pelin.");
+        else {
+                laitonSiirto = true;
                 liiku();
             }
-        }
-        if(onkoSallittu()){
-            pelilauta[loppuX][loppuY] = pelilauta[alkuX][alkuY];
-            pelilauta[alkuX][alkuY] = null;
-            valkoisenvuoro = !valkoisenvuoro;
-        }else{
-            laitonSiirto = true;
-            liiku();
-        }
-
-
-
     }
+
+
+
+
 
     /**
      * Luodaan uusi tiedosto tai jos jo olemassa, ylikirjoitetaan aina tallennettaessa.
@@ -329,7 +343,7 @@ public class Pelilauta {
             e.printStackTrace();
         }
         String[] rivit = new String[8];
-        String[][] nappulat = new String[8][8];
+        String[][] nappulat = new String[9][9];
 
         for(int i=0;i<rivit.length;i++){
             rivit[i] = tiedosto.nextLine();
@@ -338,8 +352,8 @@ public class Pelilauta {
         String temp= "";
 
 
-        for(int rivi=0;rivi<nappulat.length-1;rivi++) {
-            for (int indeksi = 0; indeksi < nappulat[0].length-1; indeksi++) {
+        for(int rivi=0;rivi<8;rivi++) {
+            for (int indeksi = 0; indeksi < 8; indeksi++) {
 
                 switch (nappulat[rivi][indeksi]) {
                     case "\u2659":
