@@ -27,7 +27,7 @@ public class Intro {
         System.out.println("");
         System.out.println("                 Tervetuloa pelaamaan shakkia!                ");
         System.out.println("");
-        System.out.println("          Ladataksesi aiemmin tallennetun pelin paina   L  ");
+        System.out.println("      Ladataksesi aiemmin tallennetun pelin paina l ja enter  ");
         System.out.println("              Aloittaaksesi uuden pelin paina   enter");
 
 

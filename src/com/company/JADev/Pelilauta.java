@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Pelilauta {
     private static Nappula[][] pelilauta = new Nappula[8][8];
     private static boolean pelataan = true;
-    private static boolean valkoisenvuoro;
+    private static boolean valkoisenvuoro = true;
     private static Scanner syote = new Scanner(System.in);
     private static String komento;
     private static int alkuX;
@@ -136,12 +136,19 @@ public class Pelilauta {
         }
     }
 
+
+
     /**
      * Tarkistaa onko mahdollinen siirto sallittu.
      * @return
      */
 
     private boolean onkoSallittu(){
+
+        if(alkuX < 0 || alkuX > 7 || alkuY < 0 || alkuY > 7){
+            System.out.println("Siirtosi on laudan ulkopuolella!");
+            return false;
+        }
 
         if(loppuX < 0 || loppuX > 7 || loppuY < 0 || loppuY > 7){
             System.out.println("Siirtosi on laudan ulkopuolella!");
